@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main(void){
+
+	float a = 0;
+	
+	printf("Enter an amount: ");
+	scanf("%2f",&a);
+	printf("With tax added: $%f\n",a*1.05);
+
+	return 0;
+}
