@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main(void){
+
+	int x = 0;
+	int result = 0;
+	
+	printf("please enter the value of X\n");
+	scanf("%d", &x);
+	
+	result = 3*x*x*x*x*x+2*x*x*x*x-5*x*x*x-x*x+7*x-6;
+
+	printf("the result of 3X^5+2X^4-5X^3-X^2+7X-6\nwhen X=%d is %d\n",x,result);
+
+	return 0;
+}
