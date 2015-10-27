@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main(void){
+
+	int X = 0, result = 0;
+
+	printf("please enter a value for X\n");
+	scanf("%d", &X);
+
+	result = ((((3*X+2)*X-5)*X-1)*X+7)*X-6;
+	printf("The result for the equation:\n((((3*X+2)*X-5)X+7)X-6 is %d when X = %d\n",result,X);
+
+	return 0;
+
+}
