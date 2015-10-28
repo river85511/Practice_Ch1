@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+#define r 10
+#define pi 3.14
+
+
+int main(void){
+
+	float result = 0;
+	result = (4.0f/3.0f)*pi*r*r*r;
+	printf("v=4/3*pi*r^3= %f\n",result);
+	
+	return 0;	
+
+}
